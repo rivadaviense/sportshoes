@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(3, 180, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 1.5rem;
+}
+
+.main{
+    background-color: rgb(6, 114, 53);
+    margin-top: 10px;
+}
+.titulo-zapatillas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    color: aliceblue;
+    font-size: 55px;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.producto{
+    background-color: beige;
+    border: 1px solid black;
+    width: 20rem;
+    border-radius: 1rem;
+    gap: .5rem;
+}
+.producto-imagen{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.producto-detalles{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: .5rem;
+    gap: .5rem;
+    
+}
+.producto-precio{
+    font-size: 20px;
+  
+}
+.producto-agregar {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    border: 0;
+    color: antiquewhite;
+    background-color: green;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+}
+
+.producto-agregar:hover {
+    background-color: rgb(3, 40, 1);
+    color: green;
+}
+
+.contenedor-carrito{
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+.carrito-producto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(149, 149, 148);
+    gap: .5rem;
+    padding: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border-radius: 1rem;
+}
+.titulo-carrito-vacio{
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+.carrito-producto-btn{
+    background-color: transparent;
+    color: brown;
+    border: 0;
+    margin-right: 5rem;
+   font-size: 1.5rem;
+}
+
+.carrito-total {
+    background-color: brown;
+    padding: 1rem;
+}
+
+.d-none{
+    display: none;
+}
+
+
+
+.footer{
+    background-color: antiquewhite;
+    color: green;
+    padding: 5rem;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.footer .i{
+    color: aliceblue;
+    font-size: 5px;
+}
